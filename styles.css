@@ -1,0 +1,29 @@
+.keys {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin: 90px auto;
+    
+  }
+  
+  .key {
+    width: 20px;
+    color: white;
+    background-color: teal;
+    border-color: white;
+    border-radius: 30%;
+    border-width: 15px;  
+    border-style: double;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  kbd {
+    font-size: 30px;
+  }
+  .pressed {
+    transform:scale(1.1);
+  }
+  
